@@ -1,0 +1,25 @@
+
+[
+    {
+    "nombre": "Toyota",
+    "_imagen" : "imagenes/logo/toyota.png"  
+    },
+    {
+    "nombre": "Honda",
+    "_imagen" : "imagenes/logo/honda.png"
+    },
+    {
+    "nombre": "Scania",
+    "_imagen" : "imagenes/logo/scania.png"
+    },
+    {
+    "nombre": "Mercedes Benz",
+    "_imagen" : "imagenes/logo/mercedes.png"
+    },
+    {
+    "nombre": "Bell",
+    "_imagen" : "imagenes/logo/bell.png"
+    }
+    
+]
+

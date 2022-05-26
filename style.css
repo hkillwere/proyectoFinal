@@ -1,0 +1,114 @@
+*{
+  padding: 20;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+	background: darkgray;
+	height: 100 px;
+	width: 100 ;
+	text-align: center;
+	line-height: 100px;
+	color: white;
+	border-bottom: 3px solid black;
+}
+.div2{width: 30%;
+	float: left;
+	padding: 20px;
+
+}
+.clearfix{
+	clear: both;
+
+}
+
+.sponsor{ 
+	float: right;
+    margin-right: 70px;
+}
+
+#container{
+	width: 100%;
+
+
+}
+
+#imagen{
+ 
+        width: 30 px;
+        height: 30 px;
+
+}
+tesla{
+	margin-left: 15px;
+	padding: 20 px;
+}
+
+aside{
+	float: right;
+	width: 20% ;
+	background: blueviolet;
+	min-height: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+	
+}
+
+section{
+	background-color: grey;
+	padding: 20px;
+	
+}
+.content{
+	float: left;
+	width: 100%;
+
+	min-height: 500px;
+	display: flex;
+}
+.in-flex{
+	flex: 1;
+	padding: 25px;
+	margin: 10px;
+	border: 10px black;
+
+}
+
+.in-flex:first-child{
+	flex: 2;
+	padding: 25 px;
+	margin: 10px;
+	border: 10px black;
+
+}
+
+.article{
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+	border-bottom: 5px solid red;
+	border-bottom-width: 100;
+}
+
+.article: first-child{
+	border-top: 1px solid whitesmoke;
+}
+
+.article h2{
+	font-size: 20px;
+}
+
+
+footer{
+	background: black;
+	color: floralwhite;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+
+}
+
+
