@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    transition: .3s;
+}
+
+header{
+    background-color: grey;
+}
+header{
+    padding: 0 10%;
+    height: 70px;
+    border: 1px solid #ccc;
+    position: fixed;
+    width: 100%;
+    background-color: #FFF;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    z-index: 1000;
+}
+
+nav i{
+    font-size:  2rem;
+    cursor: pointer;
+}
+
+aside{
+
+    background-color: rgb(233, 240, 240);
+    position: absolute;
+    width: 30%;
+    height: 100vh;
+    top: 70px;
+    right: 0;
+    border: 1px solid rgb(143, 16, 16);
+    transform: translateX(100%);
+
+}
+
+aside.active{
+   transform: translateX(0);
+}
+
+
+.container-products{
+    padding: 5rem 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+
+    width: 300px;
+    height: 400px;
+    border: 1px solid #ccc;
+    padding: 10px;
+
+
+}
+
+.card img{
+    width: 100%;
+    height: 70%;
+}
+
+.card h3{
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+.card .btn{
+    background-color: rgb(97, 55, 165);
+    color: rgb(46, 6, 6);
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    display: block;
+    margin: 0 auto;
+    border: none;
+} 
+
+.product{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFF;
+    border: #ccc 1px solid;
+}
+
+
+aside img{
+    width: 100px;    
+}
+
+aside i{
+    font-size: 1rem;
+    cursor: pointer;
+}
+  

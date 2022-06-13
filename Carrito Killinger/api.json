@@ -1,0 +1,52 @@
+[
+    {
+      "precio": 25500,
+      "id": 1,
+      "title": "Auto",
+      "thumbnailUrl": "img/nissan.png",
+      "stock": 1
+    },
+    {
+      "precio": 300000,
+      "id": 2,
+      "title": "Avion",
+      "thumbnailUrl": "img/avion.png",
+      "stock": 1
+    },
+    {
+      "precio": 1000,
+      "id": 3,
+      "title": "Moto",
+      "thumbnailUrl": "img/moto.png",
+      "stock": 1
+    },
+    {
+      "precio": 500000,
+      "id": 4,
+      "title": "Camion",
+      "thumbnailUrl": "img/camion.png",
+      "stock": 1
+    },
+    {
+      "precio": 150000,
+      "id": 6,
+      "title": "Cuatriciclo",
+      "thumbnailUrl": "img/cuatriciclo.png",
+      "stock": 1
+    },
+    {
+      "precio": 5000,
+      "id": 1,
+      "title": "Tesla",
+      "thumbnailUrl": "img/movilidad.png",
+      "stock": 1
+    },
+    {
+      "precio": 10000,
+      "id": 5,
+      "title": "Helicóptero",
+      "thumbnailUrl": "img/helicoptero.png",
+      "stock": 1
+    }
+      
+]
